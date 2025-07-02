@@ -1,0 +1,958 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+                              build/HL_sys_startup.o (exit)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o) (__call_exitprocs)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o) (atexit)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o) (__register_exitproc)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_pcr.o
+ .text          0x0000000000000000      0x9e0 build/HL_sys_pcr.o
+ .data          0x0000000000000000        0x0 build/HL_sys_pcr.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_pcr.o
+ .debug_info    0x0000000000000000      0xe56 build/HL_sys_pcr.o
+ .debug_abbrev  0x0000000000000000      0x16c build/HL_sys_pcr.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000       0x5f build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000       0x19 build/HL_sys_pcr.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_pcr.o
+ .debug_line    0x0000000000000000      0x526 build/HL_sys_pcr.o
+ .debug_str     0x0000000000000000     0x44bb build/HL_sys_pcr.o
+ .comment       0x0000000000000000       0x5a build/HL_sys_pcr.o
+ .debug_frame   0x0000000000000000      0x330 build/HL_sys_pcr.o
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_sys_pcr.o
+ .group         0x0000000000000000        0xc build/HL_sys_phantom.o
+ .group         0x0000000000000000        0xc build/HL_sys_phantom.o
+ .group         0x0000000000000000        0xc build/HL_sys_phantom.o
+ .group         0x0000000000000000        0xc build/HL_sys_phantom.o
+ .group         0x0000000000000000        0xc build/HL_sys_phantom.o
+ .group         0x0000000000000000        0xc build/HL_sys_phantom.o
+ .data          0x0000000000000000        0x0 build/HL_sys_phantom.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_phantom.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_sys_phantom.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_sys_phantom.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_sys_phantom.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_sys_phantom.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_phantom.o
+ .group         0x0000000000000000        0xc build/HL_sys_pmm.o
+ .group         0x0000000000000000        0xc build/HL_sys_pmm.o
+ .group         0x0000000000000000        0xc build/HL_sys_pmm.o
+ .group         0x0000000000000000        0xc build/HL_sys_pmm.o
+ .group         0x0000000000000000        0xc build/HL_sys_pmm.o
+ .text          0x0000000000000000      0x21a build/HL_sys_pmm.o
+ .data          0x0000000000000000        0x0 build/HL_sys_pmm.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_pmm.o
+ .debug_info    0x0000000000000000      0x2cc build/HL_sys_pmm.o
+ .debug_abbrev  0x0000000000000000       0xf1 build/HL_sys_pmm.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_sys_pmm.o
+ .debug_macro   0x0000000000000000       0x6d build/HL_sys_pmm.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_sys_pmm.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_sys_pmm.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_sys_pmm.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_sys_pmm.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_pmm.o
+ .debug_line    0x0000000000000000      0x218 build/HL_sys_pmm.o
+ .debug_str     0x0000000000000000     0x3c83 build/HL_sys_pmm.o
+ .comment       0x0000000000000000       0x5a build/HL_sys_pmm.o
+ .debug_frame   0x0000000000000000       0x88 build/HL_sys_pmm.o
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_sys_pmm.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_errata.o
+ .text          0x0000000000000000      0x3d6 build/HL_errata.o
+ .data          0x0000000000000000        0x0 build/HL_errata.o
+ .bss           0x0000000000000000        0x0 build/HL_errata.o
+ .debug_info    0x0000000000000000      0x5f6 build/HL_errata.o
+ .debug_abbrev  0x0000000000000000       0xf1 build/HL_errata.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x8a build/HL_errata.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_errata.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x1d build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x19 build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x16 build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x2e build/HL_errata.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_errata.o
+ .debug_line    0x0000000000000000      0x305 build/HL_errata.o
+ .debug_str     0x0000000000000000     0x4006 build/HL_errata.o
+ .comment       0x0000000000000000       0x5a build/HL_errata.o
+ .debug_frame   0x0000000000000000       0x60 build/HL_errata.o
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_errata.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_sys_dma.o
+ .text          0x0000000000000000      0x864 build/HL_sys_dma.o
+ .data          0x0000000000000000        0x0 build/HL_sys_dma.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_dma.o
+ .debug_info    0x0000000000000000     0x10db build/HL_sys_dma.o
+ .debug_abbrev  0x0000000000000000      0x1df build/HL_sys_dma.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000       0x72 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000       0x12 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_sys_dma.o
+ .debug_macro   0x0000000000000000      0x136 build/HL_sys_dma.o
+ .debug_line    0x0000000000000000      0x4d9 build/HL_sys_dma.o
+ .debug_str     0x0000000000000000     0x6bde build/HL_sys_dma.o
+ .comment       0x0000000000000000       0x5a build/HL_sys_dma.o
+ .debug_frame   0x0000000000000000      0x2a0 build/HL_sys_dma.o
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_sys_dma.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_esm.o
+ .data          0x0000000000000000        0x0 build/HL_esm.o
+ .bss           0x0000000000000000        0x0 build/HL_esm.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_esm.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_esm.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_esm.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_esm.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_esm.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_esm.o
+ .debug_macro   0x0000000000000000      0x136 build/HL_esm.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_sys_vim.o
+ .data          0x0000000000000000        0x0 build/HL_sys_vim.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000      0x136 build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000       0x1d build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000       0x19 build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000       0x2e build/HL_sys_vim.o
+ .debug_macro   0x0000000000000000      0x2ea build/HL_sys_vim.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_gio.o
+ .data          0x0000000000000000        0x0 build/HL_gio.o
+ .bss           0x0000000000000000        0x0 build/HL_gio.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_gio.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_gio.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_gio.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_gio.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_gio.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_gio.o
+ .debug_macro   0x0000000000000000      0x136 build/HL_gio.o
+ .group         0x0000000000000000        0xc build/HL_pinmux.o
+ .group         0x0000000000000000        0xc build/HL_pinmux.o
+ .group         0x0000000000000000        0xc build/HL_pinmux.o
+ .group         0x0000000000000000        0xc build/HL_pinmux.o
+ .group         0x0000000000000000        0xc build/HL_pinmux.o
+ .group         0x0000000000000000        0xc build/HL_pinmux.o
+ .data          0x0000000000000000        0x0 build/HL_pinmux.o
+ .bss           0x0000000000000000        0x0 build/HL_pinmux.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_pinmux.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_pinmux.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_pinmux.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_pinmux.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_pinmux.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_system.o
+ .data          0x0000000000000000        0x0 build/HL_system.o
+ .bss           0x0000000000000000        0x0 build/HL_system.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_system.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_system.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_system.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_system.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_system.o
+ .debug_macro   0x0000000000000000       0x1d build/HL_system.o
+ .debug_macro   0x0000000000000000       0x19 build/HL_system.o
+ .debug_macro   0x0000000000000000       0x11 build/HL_system.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_system.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_system.o
+ .debug_macro   0x0000000000000000       0x2e build/HL_system.o
+ .debug_macro   0x0000000000000000      0x1e8 build/HL_system.o
+ .debug_macro   0x0000000000000000     0x1d04 build/HL_system.o
+ .group         0x0000000000000000        0xc build/HL_nmpu.o
+ .group         0x0000000000000000        0xc build/HL_nmpu.o
+ .group         0x0000000000000000        0xc build/HL_nmpu.o
+ .group         0x0000000000000000        0xc build/HL_nmpu.o
+ .group         0x0000000000000000        0xc build/HL_nmpu.o
+ .group         0x0000000000000000        0xc build/HL_nmpu.o
+ .text          0x0000000000000000      0x220 build/HL_nmpu.o
+ .data          0x0000000000000000        0x0 build/HL_nmpu.o
+ .bss           0x0000000000000000        0x0 build/HL_nmpu.o
+ .debug_info    0x0000000000000000      0x4ac build/HL_nmpu.o
+ .debug_abbrev  0x0000000000000000      0x15e build/HL_nmpu.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_nmpu.o
+ .debug_macro   0x0000000000000000       0x5a build/HL_nmpu.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_nmpu.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_nmpu.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_nmpu.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_nmpu.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_nmpu.o
+ .debug_macro   0x0000000000000000       0x16 build/HL_nmpu.o
+ .debug_line    0x0000000000000000      0x1c7 build/HL_nmpu.o
+ .debug_str     0x0000000000000000     0x3e59 build/HL_nmpu.o
+ .comment       0x0000000000000000       0x5a build/HL_nmpu.o
+ .debug_frame   0x0000000000000000      0x1a0 build/HL_nmpu.o
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_nmpu.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_sys_startup.o
+ .data          0x0000000000000000        0x0 build/HL_sys_startup.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x1d build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x19 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x11 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x2e build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000      0x1e8 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000      0x136 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_sys_startup.o
+ .debug_macro   0x0000000000000000      0x2ea build/HL_sys_startup.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_notification.o
+ .data          0x0000000000000000        0x0 build/HL_notification.o
+ .bss           0x0000000000000000        0x0 build/HL_notification.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_notification.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_notification.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_notification.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_notification.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_notification.o
+ .debug_macro   0x0000000000000000      0x2ea build/HL_notification.o
+ .debug_macro   0x0000000000000000       0x1d build/HL_notification.o
+ .debug_macro   0x0000000000000000       0x52 build/HL_notification.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_epc.o
+ .text          0x0000000000000000      0x33a build/HL_epc.o
+ .data          0x0000000000000000        0x0 build/HL_epc.o
+ .bss           0x0000000000000000        0x0 build/HL_epc.o
+ .debug_info    0x0000000000000000      0x6b1 build/HL_epc.o
+ .debug_abbrev  0x0000000000000000      0x18f build/HL_epc.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0xaf build/HL_epc.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_epc.o
+ .debug_macro   0x0000000000000000      0x34e build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x22 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x85 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x1c build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x1d build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x19 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x11 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x2e build/HL_epc.o
+ .debug_macro   0x0000000000000000      0x1e8 build/HL_epc.o
+ .debug_macro   0x0000000000000000       0x10 build/HL_epc.o
+ .debug_line    0x0000000000000000      0x316 build/HL_epc.o
+ .debug_str     0x0000000000000000     0x5027 build/HL_epc.o
+ .comment       0x0000000000000000       0x5a build/HL_epc.o
+ .debug_frame   0x0000000000000000      0x1a8 build/HL_epc.o
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_epc.o
+ .group         0x0000000000000000        0xc build/HL_errata_SSWF021_45.o
+ .group         0x0000000000000000        0xc build/HL_errata_SSWF021_45.o
+ .data          0x0000000000000000        0x0 build/HL_errata_SSWF021_45.o
+ .bss           0x0000000000000000        0x0 build/HL_errata_SSWF021_45.o
+ .debug_macro   0x0000000000000000      0xa96 build/HL_errata_SSWF021_45.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .data          0x0000000000000000        0x0 build/main.o
+ .bss           0x0000000000000000        0x0 build/main.o
+ .debug_macro   0x0000000000000000      0xa96 build/main.o
+ .debug_macro   0x0000000000000000      0x34e build/main.o
+ .debug_macro   0x0000000000000000       0x22 build/main.o
+ .debug_macro   0x0000000000000000       0x85 build/main.o
+ .debug_macro   0x0000000000000000       0x1c build/main.o
+ .debug_macro   0x0000000000000000       0x17 build/main.o
+ .debug_macro   0x0000000000000000       0x52 build/main.o
+ .text          0x0000000000000000       0xe0 build/HL_sys_pmu.o
+ .data          0x0000000000000000        0x0 build/HL_sys_pmu.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_pmu.o
+ .debug_line    0x0000000000000000       0x90 build/HL_sys_pmu.o
+ .debug_info    0x0000000000000000       0x26 build/HL_sys_pmu.o
+ .debug_abbrev  0x0000000000000000       0x14 build/HL_sys_pmu.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_sys_pmu.o
+ .debug_str     0x0000000000000000       0x38 build/HL_sys_pmu.o
+ .ARM.attributes
+                0x0000000000000000       0x25 build/HL_sys_pmu.o
+ .data          0x0000000000000000        0x0 build/HL_sys_core.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_core.o
+ .data          0x0000000000000000        0x0 build/HL_sys_mpu.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_mpu.o
+ .text          0x0000000000000000        0x0 build/HL_sys_intvecs.o
+ .data          0x0000000000000000        0x0 build/HL_sys_intvecs.o
+ .bss           0x0000000000000000        0x0 build/HL_sys_intvecs.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+VECTORS          0x0000000000000000 0x0000000000000020 xr
+FLASH            0x0000000000000020 0x00000000003fffe0 xr
+CPU_STACK        0x0000000008000000 0x0000000000001500 rw
+RAM              0x0000000008001500 0x000000000007eb00 xrw
+MEMORY_B1        0x0000000060000000 0x0000000000000000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/HL_sys_pcr.o
+LOAD build/HL_sys_phantom.o
+LOAD build/HL_sys_pmm.o
+LOAD build/HL_errata.o
+LOAD build/HL_sys_dma.o
+LOAD build/HL_esm.o
+LOAD build/HL_sys_vim.o
+LOAD build/HL_gio.o
+LOAD build/HL_pinmux.o
+LOAD build/HL_system.o
+LOAD build/HL_nmpu.o
+LOAD build/HL_sys_startup.o
+LOAD build/HL_notification.o
+LOAD build/HL_epc.o
+LOAD build/HL_errata_SSWF021_45.o
+LOAD build/main.o
+LOAD build/HL_sys_pmu.o
+LOAD build/HL_sys_core.o
+LOAD build/HL_sys_mpu.o
+LOAD build/HL_sys_intvecs.o
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libc.a
+END GROUP
+                0x0000000008040000                _estack = 0x8040000
+                0x0000000000000400                _Min_Heap_Size = 0x400
+
+.intvecs        0x0000000000000000       0x20
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.intvecs)
+ .intvecs       0x0000000000000000       0x20 build/HL_sys_intvecs.o
+                0x0000000000000000                resetEntry
+                0x0000000000000020                . = ALIGN (0x4)
+
+.text           0x0000000000000020     0x39d0
+                0x0000000000000020                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000000000020       0x10 build/HL_sys_phantom.o
+                0x0000000000000020                phantomInterrupt
+ .text          0x0000000000000030      0x8c4 build/HL_esm.o
+                0x0000000000000030                esmInit
+                0x00000000000001c0                esmError
+                0x00000000000001e0                esmEnableError
+                0x000000000000021e                esmEnableErrorUpper
+                0x0000000000000242                esmDisableError
+                0x0000000000000280                esmDisableErrorUpper
+                0x00000000000002a4                esmTriggerErrorPinReset
+                0x00000000000002be                esmActivateNormalOperation
+                0x00000000000002d8                esmEnableInterrupt
+                0x0000000000000316                esmEnableInterruptUpper
+                0x000000000000033a                esmDisableInterrupt
+                0x0000000000000378                esmDisableInterruptUpper
+                0x000000000000039c                esmSetInterruptLevel
+                0x000000000000042e                esmSetInterruptLevelUpper
+                0x000000000000046e                esmClearStatus
+                0x00000000000004be                esmClearStatusUpper
+                0x00000000000004e8                esmClearStatusBuffer
+                0x0000000000000508                esmSetCounterPreloadValue
+                0x000000000000052c                esmGetStatus
+                0x00000000000005b0                esmGetStatusUpper
+                0x00000000000005f6                esmGetStatusBuffer
+                0x000000000000061c                esmEnterSelfTest
+                0x0000000000000690                esmSelfTestStatus
+                0x00000000000006d4                esmGetConfigValue
+                0x00000000000007d8                esmHighInterrupt
+ .text          0x00000000000008f4      0xa56 build/HL_sys_vim.o
+                0x00000000000008f4                vimInit
+                0x00000000000009d8                vimChannelMap
+                0x0000000000000a74                vimEnableInterrupt
+                0x0000000000000c42                vimDisableInterrupt
+                0x0000000000000cd0                vimGetConfigValue
+                0x00000000000010cc                vimECCErrorHandler
+ .text          0x000000000000134a      0x388 build/HL_gio.o
+                0x000000000000134a                gioInit
+                0x0000000000001424                gioSetDirection
+                0x0000000000001440                gioSetBit
+                0x0000000000001474                gioSetPort
+                0x0000000000001490                gioGetBit
+                0x00000000000014b4                gioGetPort
+                0x00000000000014cc                gioToggleBit
+                0x000000000000150a                gioEnableNotification
+                0x0000000000001566                gioDisableNotification
+                0x00000000000015c2                gioGetConfigValue
+ .text          0x00000000000016d2      0xb56 build/HL_pinmux.o
+                0x00000000000016d2                muxInit
+ .text          0x0000000000002228      0x7c8 build/HL_system.o
+                0x0000000000002228                setupPLL
+                0x0000000000002290                trimLPO
+                0x0000000000002300                setupFlash
+                0x0000000000002352                periphInit
+                0x0000000000002448                mapClocks
+                0x0000000000002550                systemInit
+                0x00000000000025aa                systemPowerDown
+                0x00000000000025d6                getResetSource
+                0x00000000000026ca                systemGetConfigValue
+                0x00000000000029d2                customTrimLPO
+ .text          0x00000000000029f0      0x112 build/HL_sys_startup.o
+                0x00000000000029f0                _c_int00
+                0x0000000000002afc                handlePLLLockFail
+ .text          0x0000000000002b02       0x88 build/HL_notification.o
+                0x0000000000002b02                esmGroup1Notification
+                0x0000000000002b18                esmGroup2Notification
+                0x0000000000002b2e                esmGroup3Notification
+                0x0000000000002b3a                dmaGroupANotification
+                0x0000000000002b52                gioNotification
+                0x0000000000002b68                epcCAMFullNotification
+                0x0000000000002b76                epcFIFOFullNotification
+ .text          0x0000000000002b8a      0x54c build/HL_errata_SSWF021_45.o
+                0x0000000000002b8a                _errata_SSWF021_45_both_plls
+                0x0000000000002d42                _errata_SSWF021_45_pll1
+                0x0000000000002e78                _errata_SSWF021_45_pll2
+ .text          0x00000000000030d6       0xa4 build/main.o
+                0x00000000000030d6                delay
+                0x0000000000003106                main
+                0x0000000000003146                _exit
+                0x0000000000003150                _fini
+                0x000000000000315e                __libc_init_array
+                0x000000000000316c                __libc_fini_array
+ *fill*         0x000000000000317a        0x2 
+ .text          0x000000000000317c      0x3bc build/HL_sys_core.o
+                0x000000000000317c                _coreInitRegisters_
+                0x0000000000003288                _coreInitStackPointer_
+                0x00000000000032d4                _getCPSRValue_
+                0x00000000000032dc                _gotoCPUIdle_
+                0x00000000000032f4                _coreEnableVfp_
+                0x000000000000330c                _coreEnableEventBusExport_
+                0x000000000000331c                _coreDisableEventBusExport_
+                0x000000000000332c                _coreEnableIrqVicOffset_
+                0x000000000000333c                _coreGetDataFault_
+                0x0000000000003344                _coreClearDataFault_
+                0x0000000000003350                _coreGetInstructionFault_
+                0x0000000000003358                _coreClearInstructionFault_
+                0x0000000000003364                _coreGetDataFaultAddress_
+                0x000000000000336c                _coreClearDataFaultAddress_
+                0x0000000000003378                _coreGetInstructionFaultAddress_
+                0x0000000000003380                _coreClearInstructionFaultAddress_
+                0x000000000000338c                _coreGetAuxiliaryDataFault_
+                0x0000000000003394                _coreClearAuxiliaryDataFault_
+                0x00000000000033a0                _coreGetAuxiliaryInstructionFault_
+                0x00000000000033a8                _coreClearAuxiliaryInstructionFault_
+                0x00000000000033b4                _disable_IRQ_interrupt_
+                0x00000000000033bc                _enable_IRQ_interrupt_
+                0x00000000000033c4                _enable_interrupt_
+                0x00000000000033cc                _esmCcmErrorsClear_
+                0x0000000000003454                _memInit_
+                0x0000000000003488                _checkMemInitOn_
+                0x00000000000034a8                _cacheEnable_
+                0x00000000000034ec                _cacheDisable_
+                0x0000000000003510                _dCacheInvalidate_
+                0x0000000000003524                _iCacheInvalidate_
+ .text          0x0000000000003538      0x36c build/HL_sys_mpu.o
+                0x0000000000003538                _mpuInit_
+                0x00000000000037f0                _mpuEnable_
+                0x0000000000003808                _mpuDisable_
+                0x0000000000003820                _mpuEnableBackgroundRegion_
+                0x0000000000003830                _mpuDisableBackgroundRegion_
+                0x0000000000003840                _mpuGetNumberOfRegions_
+                0x000000000000384c                _mpuAreRegionsSeparate_
+                0x0000000000003858                _mpuSetRegion_
+                0x0000000000003860                _mpuGetRegion_
+                0x0000000000003868                _mpuSetRegionBaseAddress_
+                0x0000000000003870                _mpuGetRegionBaseAddress_
+                0x0000000000003878                _mpuSetRegionTypeAndPermission_
+                0x0000000000003884                _mpuGetRegionType_
+                0x0000000000003890                _mpuGetRegionPermission_
+                0x000000000000389c                _mpuSetRegionSizeRegister_
+ .text          0x00000000000038a4       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+                0x00000000000038a4                exit
+ .text          0x00000000000038c4       0x9c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+                0x00000000000038c4                __call_exitprocs
+ .text          0x0000000000003960        0xc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+                0x0000000000003960                atexit
+ .text          0x000000000000396c       0x6c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+                0x000000000000396c                __register_exitproc
+ *(.text*)
+ .text.startup  0x00000000000039d8       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ *(.glue_7)
+ .glue_7        0x00000000000039f0        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000000039f0        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x00000000000039f0                . = ALIGN (0x4)
+                0x00000000000039f0                _etext = .
+
+.vfp11_veneer   0x00000000000039f0        0x0
+ .vfp11_veneer  0x00000000000039f0        0x0 linker stubs
+
+.v4_bx          0x00000000000039f0        0x0
+ .v4_bx         0x00000000000039f0        0x0 linker stubs
+
+.iplt           0x00000000000039f0        0x0
+ .iplt          0x00000000000039f0        0x0 build/HL_sys_phantom.o
+
+.rodata         0x00000000000039f0      0x204
+                0x00000000000039f0                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x00000000000039f0      0x200 build/HL_sys_vim.o
+ .rodata        0x0000000000003bf0        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+                0x0000000000003bf0                _global_impure_ptr
+ *(.rodata*)
+                0x0000000000003bf4                . = ALIGN (0x4)
+
+.rel.dyn        0x0000000000003bf4        0x0
+ .rel.iplt      0x0000000000003bf4        0x0 build/HL_sys_phantom.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0000000000003bf4        0x0
+                0x0000000000003bf4                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000000003bf4                __exidx_end = .
+
+.preinit_array  0x0000000000003bf4        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000003bf4        0x4
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x0000000000003bf4        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000003bf8        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x0000000000003bf8                _sidata = LOADADDR (.data)
+
+.data           0x0000000008001500      0x430 load address 0x0000000000003bf8
+                0x0000000008001500                . = ALIGN (0x4)
+                0x0000000008001500                _sdata = .
+ *(.data)
+ .data          0x0000000008001500      0x430 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+                0x0000000008001500                _impure_ptr
+ *(.data*)
+                0x0000000008001930                . = ALIGN (0x4)
+                0x0000000008001930                _edata = .
+
+.igot.plt       0x0000000008001930        0x0 load address 0x0000000000004028
+ .igot.plt      0x0000000008001930        0x0 build/HL_sys_phantom.o
+                0x0000000008001930                . = ALIGN (0x4)
+
+.bss            0x0000000008001930        0x0 load address 0x0000000000004028
+                0x0000000008001930                _sbss = .
+                0x0000000008001930                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x0000000008001930                . = ALIGN (0x4)
+                0x0000000008001930                _ebss = .
+                0x0000000008001930                __bss_end__ = _ebss
+                [!provide]                        PROVIDE (end = _ebss)
+                [!provide]                        PROVIDE (_end = _ebss)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 build/HL_sys_phantom.o
+ .ARM.attributes
+                0x0000000000000035       0x35 build/HL_esm.o
+ .ARM.attributes
+                0x000000000000006a       0x35 build/HL_sys_vim.o
+ .ARM.attributes
+                0x000000000000009f       0x35 build/HL_gio.o
+ .ARM.attributes
+                0x00000000000000d4       0x35 build/HL_pinmux.o
+ .ARM.attributes
+                0x0000000000000109       0x35 build/HL_system.o
+ .ARM.attributes
+                0x000000000000013e       0x35 build/HL_sys_startup.o
+ .ARM.attributes
+                0x0000000000000173       0x35 build/HL_notification.o
+ .ARM.attributes
+                0x00000000000001a8       0x35 build/HL_errata_SSWF021_45.o
+ .ARM.attributes
+                0x00000000000001dd       0x35 build/main.o
+ .ARM.attributes
+                0x0000000000000212       0x25 build/HL_sys_core.o
+ .ARM.attributes
+                0x0000000000000237       0x25 build/HL_sys_mpu.o
+ .ARM.attributes
+                0x000000000000025c       0x25 build/HL_sys_intvecs.o
+ .ARM.attributes
+                0x0000000000000281       0x2d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000002ae       0x2b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000002d9       0x2d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000306       0x2d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000333       0x2d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+OUTPUT(build/output.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7+fp/hard/libgcc.a
+
+.debug_info     0x0000000000000000     0x6a7b
+ .debug_info    0x0000000000000000       0x97 build/HL_sys_phantom.o
+ .debug_info    0x0000000000000097      0x83d build/HL_esm.o
+ .debug_info    0x00000000000008d4      0x7d7 build/HL_sys_vim.o
+ .debug_info    0x00000000000010ab      0x4eb build/HL_gio.o
+ .debug_info    0x0000000000001596      0x1fe build/HL_pinmux.o
+ .debug_info    0x0000000000001794      0xfdd build/HL_system.o
+ .debug_info    0x0000000000002771      0x339 build/HL_sys_startup.o
+ .debug_info    0x0000000000002aaa      0x45c build/HL_notification.o
+ .debug_info    0x0000000000002f06      0x88e build/HL_errata_SSWF021_45.o
+ .debug_info    0x0000000000003794      0x1bb build/main.o
+ .debug_info    0x000000000000394f       0x26 build/HL_sys_core.o
+ .debug_info    0x0000000000003975       0x26 build/HL_sys_mpu.o
+ .debug_info    0x000000000000399b       0x26 build/HL_sys_intvecs.o
+ .debug_info    0x00000000000039c1      0x9d0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .debug_info    0x0000000000004391      0x92a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .debug_info    0x0000000000004cbb      0xa56 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000005711      0x995 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_info    0x00000000000060a6      0x9d5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_abbrev   0x0000000000000000     0x1740
+ .debug_abbrev  0x0000000000000000       0x47 build/HL_sys_phantom.o
+ .debug_abbrev  0x0000000000000047      0x1b2 build/HL_esm.o
+ .debug_abbrev  0x00000000000001f9      0x18f build/HL_sys_vim.o
+ .debug_abbrev  0x0000000000000388      0x113 build/HL_gio.o
+ .debug_abbrev  0x000000000000049b       0xa2 build/HL_pinmux.o
+ .debug_abbrev  0x000000000000053d      0x224 build/HL_system.o
+ .debug_abbrev  0x0000000000000761      0x12d build/HL_sys_startup.o
+ .debug_abbrev  0x000000000000088e      0x121 build/HL_notification.o
+ .debug_abbrev  0x00000000000009af      0x146 build/HL_errata_SSWF021_45.o
+ .debug_abbrev  0x0000000000000af5      0x102 build/main.o
+ .debug_abbrev  0x0000000000000bf7       0x14 build/HL_sys_core.o
+ .debug_abbrev  0x0000000000000c0b       0x14 build/HL_sys_mpu.o
+ .debug_abbrev  0x0000000000000c1f       0x14 build/HL_sys_intvecs.o
+ .debug_abbrev  0x0000000000000c33      0x21f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000000e52      0x1b8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000100a      0x2b2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000012bc      0x232 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_abbrev  0x00000000000014ee      0x252 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_aranges  0x0000000000000000      0x240
+ .debug_aranges
+                0x0000000000000000       0x20 build/HL_sys_phantom.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/HL_esm.o
+ .debug_aranges
+                0x0000000000000040       0x20 build/HL_sys_vim.o
+ .debug_aranges
+                0x0000000000000060       0x20 build/HL_gio.o
+ .debug_aranges
+                0x0000000000000080       0x20 build/HL_pinmux.o
+ .debug_aranges
+                0x00000000000000a0       0x20 build/HL_system.o
+ .debug_aranges
+                0x00000000000000c0       0x20 build/HL_sys_startup.o
+ .debug_aranges
+                0x00000000000000e0       0x20 build/HL_notification.o
+ .debug_aranges
+                0x0000000000000100       0x20 build/HL_errata_SSWF021_45.o
+ .debug_aranges
+                0x0000000000000120       0x20 build/main.o
+ .debug_aranges
+                0x0000000000000140       0x20 build/HL_sys_core.o
+ .debug_aranges
+                0x0000000000000160       0x20 build/HL_sys_mpu.o
+ .debug_aranges
+                0x0000000000000180       0x20 build/HL_sys_intvecs.o
+ .debug_aranges
+                0x00000000000001a0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000000000001c0       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000000001d8       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000200       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000220       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_macro    0x0000000000000000     0x2bce
+ .debug_macro   0x0000000000000000       0x64 build/HL_sys_phantom.o
+ .debug_macro   0x0000000000000064      0x136 build/HL_sys_phantom.o
+ .debug_macro   0x000000000000019a       0x78 build/HL_esm.o
+ .debug_macro   0x0000000000000212      0x2ea build/HL_esm.o
+ .debug_macro   0x00000000000004fc       0xc9 build/HL_sys_vim.o
+ .debug_macro   0x00000000000005c5       0x11 build/HL_sys_vim.o
+ .debug_macro   0x00000000000005d6       0x10 build/HL_sys_vim.o
+ .debug_macro   0x00000000000005e6       0x10 build/HL_sys_vim.o
+ .debug_macro   0x00000000000005f6      0x1e8 build/HL_sys_vim.o
+ .debug_macro   0x00000000000007de       0x10 build/HL_sys_vim.o
+ .debug_macro   0x00000000000007ee       0x77 build/HL_gio.o
+ .debug_macro   0x0000000000000865       0x17 build/HL_gio.o
+ .debug_macro   0x000000000000087c       0x52 build/HL_gio.o
+ .debug_macro   0x00000000000008ce      0x1db build/HL_pinmux.o
+ .debug_macro   0x0000000000000aa9     0x1d04 build/HL_pinmux.o
+ .debug_macro   0x00000000000027ad       0xad build/HL_system.o
+ .debug_macro   0x000000000000285a       0x1f build/HL_system.o
+ .debug_macro   0x0000000000002879       0x10 build/HL_system.o
+ .debug_macro   0x0000000000002889       0xdd build/HL_sys_startup.o
+ .debug_macro   0x0000000000002966       0xb6 build/HL_sys_startup.o
+ .debug_macro   0x0000000000002a1c       0x9e build/HL_notification.o
+ .debug_macro   0x0000000000002aba       0x10 build/HL_notification.o
+ .debug_macro   0x0000000000002aca       0x18 build/HL_notification.o
+ .debug_macro   0x0000000000002ae2       0x24 build/HL_errata_SSWF021_45.o
+ .debug_macro   0x0000000000002b06       0x65 build/HL_errata_SSWF021_45.o
+ .debug_macro   0x0000000000002b6b       0x63 build/main.o
+
+.debug_line     0x0000000000000000     0x28c6
+ .debug_line    0x0000000000000000       0xdc build/HL_sys_phantom.o
+ .debug_line    0x00000000000000dc      0x4b7 build/HL_esm.o
+ .debug_line    0x0000000000000593      0x5da build/HL_sys_vim.o
+ .debug_line    0x0000000000000b6d      0x28a build/HL_gio.o
+ .debug_line    0x0000000000000df7      0x2ab build/HL_pinmux.o
+ .debug_line    0x00000000000010a2      0x4f5 build/HL_system.o
+ .debug_line    0x0000000000001597      0x225 build/HL_sys_startup.o
+ .debug_line    0x00000000000017bc      0x14b build/HL_notification.o
+ .debug_line    0x0000000000001907      0x40e build/HL_errata_SSWF021_45.o
+ .debug_line    0x0000000000001d15      0x127 build/main.o
+ .debug_line    0x0000000000001e3c      0x157 build/HL_sys_core.o
+ .debug_line    0x0000000000001f93      0x12b build/HL_sys_mpu.o
+ .debug_line    0x00000000000020be       0x4e build/HL_sys_intvecs.o
+ .debug_line    0x000000000000210c      0x178 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .debug_line    0x0000000000002284       0xe3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .debug_line    0x0000000000002367      0x23b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_line    0x00000000000025a2      0x14a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_line    0x00000000000026ec      0x1da /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_str      0x0000000000000000    0x1ec45
+ .debug_str     0x0000000000000000     0x5f2e build/HL_sys_phantom.o
+                                       0x609e (size before relaxing)
+ .debug_str     0x0000000000005f2e     0x28b0 build/HL_esm.o
+                                       0x8981 (size before relaxing)
+ .debug_str     0x00000000000087de     0x152e build/HL_sys_vim.o
+                                       0x9bf3 (size before relaxing)
+ .debug_str     0x0000000000009d0c      0xfd8 build/HL_gio.o
+                                       0x7148 (size before relaxing)
+ .debug_str     0x000000000000ace4    0x1270f build/HL_pinmux.o
+                                      0x16179 (size before relaxing)
+ .debug_str     0x000000000001d3f3      0x96a build/HL_system.o
+                                      0x15d3f (size before relaxing)
+ .debug_str     0x000000000001dd5d      0x28e build/HL_sys_startup.o
+                                       0x9af6 (size before relaxing)
+ .debug_str     0x000000000001dfeb      0x179 build/HL_notification.o
+                                       0x6fa7 (size before relaxing)
+ .debug_str     0x000000000001e164      0x372 build/HL_errata_SSWF021_45.o
+                                       0x3471 (size before relaxing)
+ .debug_str     0x000000000001e4d6       0x3c build/main.o
+                                       0x4934 (size before relaxing)
+ .debug_str     0x000000000001e512       0x21 build/HL_sys_core.o
+                                         0x39 (size before relaxing)
+ .debug_str     0x000000000001e533       0x14 build/HL_sys_mpu.o
+                                         0x38 (size before relaxing)
+ .debug_str     0x000000000001e547       0x18 build/HL_sys_intvecs.o
+                                         0x3c (size before relaxing)
+ .debug_str     0x000000000001e55f      0x524 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+                                        0x5e6 (size before relaxing)
+ .debug_str     0x000000000001ea83       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+                                        0x59a (size before relaxing)
+ .debug_str     0x000000000001eb1b       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+                                        0x616 (size before relaxing)
+ .debug_str     0x000000000001eb97       0x78 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+                                        0x5e5 (size before relaxing)
+ .debug_str     0x000000000001ec0f       0x36 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+                                        0x603 (size before relaxing)
+
+.comment        0x0000000000000000       0xa7
+ .comment       0x0000000000000000       0x59 build/HL_sys_phantom.o
+                                         0x5a (size before relaxing)
+ .comment       0x0000000000000059       0x5a build/HL_esm.o
+ .comment       0x0000000000000059       0x5a build/HL_sys_vim.o
+ .comment       0x0000000000000059       0x5a build/HL_gio.o
+ .comment       0x0000000000000059       0x5a build/HL_pinmux.o
+ .comment       0x0000000000000059       0x5a build/HL_system.o
+ .comment       0x0000000000000059       0x5a build/HL_sys_startup.o
+ .comment       0x0000000000000059       0x5a build/HL_notification.o
+ .comment       0x0000000000000059       0x5a build/HL_errata_SSWF021_45.o
+ .comment       0x0000000000000059       0x5a build/main.o
+ .comment       0x0000000000000059       0x4e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+                                         0x4f (size before relaxing)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-impure.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_frame    0x0000000000000000      0xc2c
+ .debug_frame   0x0000000000000000       0x30 build/HL_sys_phantom.o
+ .debug_frame   0x0000000000000030      0x410 build/HL_esm.o
+ .debug_frame   0x0000000000000440      0x100 build/HL_sys_vim.o
+ .debug_frame   0x0000000000000540      0x198 build/HL_gio.o
+ .debug_frame   0x00000000000006d8       0x34 build/HL_pinmux.o
+ .debug_frame   0x000000000000070c      0x168 build/HL_system.o
+ .debug_frame   0x0000000000000874       0x38 build/HL_sys_startup.o
+ .debug_frame   0x00000000000008ac      0x114 build/HL_notification.o
+ .debug_frame   0x00000000000009c0       0xcc build/HL_errata_SSWF021_45.o
+ .debug_frame   0x0000000000000a8c       0xd0 build/main.o
+ .debug_frame   0x0000000000000b5c       0x28 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000b84       0x50 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000bd4       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000bf4       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_loc      0x0000000000000000      0x2d6
+ .debug_loc     0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-exit.o)
+ .debug_loc     0x0000000000000022      0x14a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_loc     0x000000000000016c       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000019e      0x138 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__atexit.o)
+
+.debug_ranges   0x0000000000000000       0x38
+ .debug_ranges  0x0000000000000000       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7+fp/hard/libg.a(lib_a-__call_atexit.o)

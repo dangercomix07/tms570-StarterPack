@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "hl_sys_common.h": "c",
+        "hl_gio.h": "c",
+        "hl_system.h": "c"
+    }
+}
