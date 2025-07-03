@@ -9,20 +9,22 @@ ARMAS     := $(TI_BASE)/bin/armasm
 HEX       := $(TI_BASE)/bin/armhex
 
 # --- Directories ---
-SRC_DIR   := source
+HAL_DIR    := tms570-hal
+SRC_DIR    := $(HAL_DIR)/source
+INC_DIR    := $(HAL_DIR)/include
 OBJ_DIR   := build
-INC_DIR   := include
 
 # --- Libraries ---
 TI_LIB    := $(TI_BASE)/lib
 RTS_LIB   := $(TI_LIB)/rtsv7R4_T_be_v3D16_eabi.lib
 
 # --- Source Files ---
-C_SRCS    := $(wildcard $(SRC_DIR)/*.c)
+C_SRCS := $(filter-out $(SRC_DIR)/HL_sys_main.c, $(wildcard $(SRC_DIR)/*.c))
+C_SRCS += main.c  # or app/*.c if you have a folder
 ASM_SRCS  := $(wildcard $(SRC_DIR)/*.asm)
 
 # --- Object Files (in build/) ---
-C_OBJS    := $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.obj,$(C_SRCS))
+C_OBJS := $(patsubst %.c, $(OBJ_DIR)/%.obj, $(notdir $(C_SRCS)))
 ASM_OBJS  := $(patsubst $(SRC_DIR)/%.asm,$(OBJ_DIR)/%.obj,$(ASM_SRCS))
 OBJS      := $(C_OBJS) $(ASM_OBJS)
 ABS_OBJS  := $(patsubst %,$(abspath %),$(OBJS))
@@ -58,6 +60,11 @@ $(OBJ_DIR):
 # --- Compile C sources to OBJECTS ---
 $(OBJ_DIR)/%.obj: $(SRC_DIR)/%.c | $(OBJ_DIR)
 	@echo "[CC] $< → $@"
+	$(CC) $(CFLAGS) --compile_only $< --output_file $@
+
+# For your custom files outside source/
+$(OBJ_DIR)/%.obj: %.c | $(OBJ_DIR)
+	@echo "[CC*] $< → $@"
 	$(CC) $(CFLAGS) --compile_only $< --output_file $@
 
 # ASM sources → .obj (via armcl, not armasm)

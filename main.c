@@ -1,46 +1,35 @@
 #include "HL_sys_common.h"
 #include "HL_gio.h"
 
-void _exit(int status) {
-    while (1);  // hang forever
-}
-
-// --- Stub out TI auto‐init and exit for a bare‐metal blink demo ---
-void __TI_auto_init(void) {
-    // if you’re manually initializing .data/.bss in your startup,
-    // this can be empty. Otherwise, call your own init routine here.
-}
-
-int exit(int status) {
-    // never return: loop forever
-    (void)status;
-    while (1) { }
-}
-
 void delay(void)
 {
     volatile int i;
-    for (i = 0; i < 500000; ++i)
+    for (i = 0; i < 1000000; ++i)
     {
         __asm(" nop");  // Prevent optimization
     }
 }
 
-int user_main(void)
+
+int main(void)
 {
+    // Initialize GIO module (calls muxInit inside)
     gioInit();
 
-    // Set GIOB pin 7 (User LED3 on ball F1) as output
-    gioSetDirection(gioPORTB, 1 << 7);  // Sets only bit 7 as output
+    // Set GIOB pins 7 and 6 as outputs
+    gioSetDirection(gioPORTB, (1 << 7) | (1 << 6));
 
     while (1)
     {
-        gioSetBit(gioPORTB, 7, 1);  // Turn LED ON
+        // Turn GIOB7 ON and GIOB6 OFF
+        gioSetBit(gioPORTB, 7, 1);
+        gioSetBit(gioPORTB, 6, 0);
         delay();
 
-        gioSetBit(gioPORTB, 7, 0);  // Turn LED OFF
+        // Turn GIOB7 OFF and GIOB6 ON
+        gioSetBit(gioPORTB, 7, 0);
+        gioSetBit(gioPORTB, 6, 1);
         delay();
     }
     return 0;
 }
-
