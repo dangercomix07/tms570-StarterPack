@@ -1,7 +1,4 @@
-# -----------------------------------------------------------------------------
-# Project Makefile for TMS570 (ARMv7‑R5) with TI CGT on WSL/Linux
-# -----------------------------------------------------------------------------
-
+#-----MAKEFILE--------------------
 # --- Toolchain & Architecture ---
 TI_BASE   := $(PWD)/ti-cgt-arm_20.2.7.LTS
 CC        := $(TI_BASE)/bin/armcl
@@ -20,7 +17,7 @@ RTS_LIB   := $(TI_LIB)/rtsv7R4_T_be_v3D16_eabi.lib
 
 # --- Source Files ---
 C_SRCS := $(filter-out $(SRC_DIR)/HL_sys_main.c, $(wildcard $(SRC_DIR)/*.c))
-C_SRCS += main.c  # or app/*.c if you have a folder
+C_SRCS += main.c  #Add all scripts here
 ASM_SRCS  := $(wildcard $(SRC_DIR)/*.asm)
 
 # --- Object Files (in build/) ---
@@ -53,7 +50,7 @@ LFLAGS    := -z --rom_model --be32 \
 # --- Default build ---
 all: $(OBJ_DIR) $(OBJS) $(OUT_FILE) $(HEX_FILE)
 
-# --- Ensure build directory exists ---
+# --- Ensuring build directory exists ---
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
 
@@ -62,12 +59,12 @@ $(OBJ_DIR)/%.obj: $(SRC_DIR)/%.c | $(OBJ_DIR)
 	@echo "[CC] $< → $@"
 	$(CC) $(CFLAGS) --compile_only $< --output_file $@
 
-# For your custom files outside source/
+# For custom files outside source/
 $(OBJ_DIR)/%.obj: %.c | $(OBJ_DIR)
 	@echo "[CC*] $< → $@"
 	$(CC) $(CFLAGS) --compile_only $< --output_file $@
 
-# ASM sources → .obj (via armcl, not armasm)
+# ASM sources to .obj 
 $(OBJ_DIR)/%.obj: $(SRC_DIR)/%.asm | $(OBJ_DIR)
 	@echo "[AS] $< → $@"
 	$(CC) $(CFLAGS) --compile_only $< --output_file $@
