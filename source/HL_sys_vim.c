@@ -762,6 +762,9 @@ void vimGetConfigValue(vim_config_reg_t *config_reg, config_value_type_t type)
 /* USER CODE BEGIN (10) */
 /* USER CODE END */
 
+#pragma CODE_STATE(vimECCErrorHandler, 32)
+#pragma INTERRUPT(vimECCErrorHandler, IRQ)
+#pragma WEAK(vimECCErrorHandler)
 
 /* SourceId : VIM_SourceId_006 */
 /* DesignId : VIM_DesignId_006 */

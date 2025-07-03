@@ -1,6 +1,21 @@
 #include "HL_sys_common.h"
 #include "HL_gio.h"
 
+void _exit(int status) {
+    while (1);  // hang forever
+}
+
+// --- Stub out TI auto‐init and exit for a bare‐metal blink demo ---
+void __TI_auto_init(void) {
+    // if you’re manually initializing .data/.bss in your startup,
+    // this can be empty. Otherwise, call your own init routine here.
+}
+
+int exit(int status) {
+    // never return: loop forever
+    (void)status;
+    while (1) { }
+}
 
 void delay(void)
 {
@@ -11,7 +26,7 @@ void delay(void)
     }
 }
 
-int main(void)
+int user_main(void)
 {
     gioInit();
 
@@ -29,11 +44,3 @@ int main(void)
     return 0;
 }
 
-void _exit(int status) {
-    while (1);  // hang forever
-}
-
-void _fini() {}
-
-void __libc_init_array() {}
-void __libc_fini_array() {}

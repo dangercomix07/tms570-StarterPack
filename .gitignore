@@ -1,2 +1,12 @@
 .vscode
+
+# build directory
 /build/
+
+# HALCOGEN outputs
+*.dil
+*.hcg
+
+# Compiler tools
+ti_cgt_tms470_20.2.7.LTS_linux-x64_installer.bin
+/ti-cgt-arm_20.2.7.LTS/

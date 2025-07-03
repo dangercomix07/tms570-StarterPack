@@ -1,54 +1,88 @@
-# === Toolchain ===
-CC       := arm-none-eabi-gcc
-OBJCOPY  := arm-none-eabi-objcopy
+# -----------------------------------------------------------------------------
+# Project Makefile for TMS570 (ARMv7‑R5) with TI CGT on WSL/Linux
+# -----------------------------------------------------------------------------
 
-# === Flags ===
-CPUFLAGS := -mcpu=cortex-r5 -mthumb -mfpu=vfpv3-d16 -mfloat-abi=hard
+# --- Toolchain & Architecture ---
+TI_BASE   := $(PWD)/ti-cgt-arm_20.2.7.LTS
+CC        := $(TI_BASE)/bin/armcl
+ARMAS     := $(TI_BASE)/bin/armasm
+HEX       := $(TI_BASE)/bin/armhex
 
-CFLAGS   := $(CPUFLAGS) \
-            -O0 -g3 -Wall -ffreestanding -nostartfiles \
-            -Isource -Iinclude
-
-LDFLAGS  := $(CPUFLAGS) -T source/HL_sys_link.ld -Wl,--gc-sections,-Map=build/output.map,--entry=_c_int00
-
-# === Files ===
+# --- Directories ---
 SRC_DIR   := source
-BUILD_DIR := build
+OBJ_DIR   := build
+INC_DIR   := include
 
-C_SRC     := $(filter-out $(SRC_DIR)/HL_sys_main.c, $(wildcard $(SRC_DIR)/*.c)) main.c
-S_SRC     := $(wildcard $(SRC_DIR)/*.s)
+# --- Libraries ---
+TI_LIB    := $(TI_BASE)/lib
+RTS_LIB   := $(TI_LIB)/rtsv7R4_T_be_v3D16_eabi.lib
 
-C_OBJ     := $(patsubst %.c, $(BUILD_DIR)/%.o, $(notdir $(C_SRC)))
-S_OBJ     := $(patsubst %.s, $(BUILD_DIR)/%.o, $(notdir $(S_SRC)))
+# --- Source Files ---
+C_SRCS    := $(wildcard $(SRC_DIR)/*.c)
+ASM_SRCS  := $(wildcard $(SRC_DIR)/*.asm)
 
-TARGET_ELF := $(BUILD_DIR)/output.elf
-TARGET_BIN := $(BUILD_DIR)/output.bin
+# --- Object Files (in build/) ---
+C_OBJS    := $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.obj,$(C_SRCS))
+ASM_OBJS  := $(patsubst $(SRC_DIR)/%.asm,$(OBJ_DIR)/%.obj,$(ASM_SRCS))
+OBJS      := $(C_OBJS) $(ASM_OBJS)
+ABS_OBJS  := $(patsubst %,$(abspath %),$(OBJS))
 
-# === Build Rules ===
-all: $(TARGET_ELF)
+# --- Target Names ---
+TARGET    := LED_BLINK
+OUT_FILE  := $(OBJ_DIR)/$(TARGET).out
+HEX_FILE  := $(OBJ_DIR)/$(TARGET).hex
+MAP_FILE  := $(OBJ_DIR)/$(TARGET).map
+LINK_CMD  := $(SRC_DIR)/HL_sys_link.cmd
 
-$(TARGET_ELF): $(C_OBJ) $(S_OBJ)
-	@mkdir -p $(BUILD_DIR)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ -lm
+# --- Flags ---
+INCLUDES  := -I$(INC_DIR) -I$(SRC_DIR) -i$(TI_BASE)/include -i$(TI_LIB)
+CFLAGS    := -mv7R5 --code_state=32 --float_support=VFPv3D16 \
+             --enum_type=packed --abi=eabi -g \
+             --diag_warning=225 --diag_wrap=off --display_error_number \
+             $(INCLUDES)
+LFLAGS    := -z --rom_model --be32 \
+             --heap_size=0x800 --stack_size=0x800 \
+             --warn_sections \
+             --xml_link_info=$(OBJ_DIR)/$(TARGET)_linkInfo.xml \
+             -m$(MAP_FILE) $(INCLUDES)
 
-$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
-	@mkdir -p $(BUILD_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+.PHONY: all clean
 
-$(BUILD_DIR)/%.o: $(SRC_DIR)/%.s
-	@mkdir -p $(BUILD_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+# --- Default build ---
+all: $(OBJ_DIR) $(OBJS) $(OUT_FILE) $(HEX_FILE)
 
-$(BUILD_DIR)/main.o: main.c
-	@mkdir -p $(BUILD_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+# --- Ensure build directory exists ---
+$(OBJ_DIR):
+	@mkdir -p $(OBJ_DIR)
 
-bin: $(TARGET_ELF)
-	$(OBJCOPY) -O binary $(TARGET_ELF) $(TARGET_BIN)
+# --- Compile C sources to OBJECTS ---
+$(OBJ_DIR)/%.obj: $(SRC_DIR)/%.c | $(OBJ_DIR)
+	@echo "[CC] $< → $@"
+	$(CC) $(CFLAGS) --compile_only $< --output_file $@
 
+# ASM sources → .obj (via armcl, not armasm)
+$(OBJ_DIR)/%.obj: $(SRC_DIR)/%.asm | $(OBJ_DIR)
+	@echo "[AS] $< → $@"
+	$(CC) $(CFLAGS) --compile_only $< --output_file $@
+
+# --- Link all OBJECTS + TI RTS into .out ---
+$(OUT_FILE): $(ABS_OBJS) $(LINK_CMD)
+	@echo "[LINK] $@"
+	$(CC) $(CFLAGS) $(LFLAGS) \
+	  --output_file $(abspath $@) \
+	  $(ABS_OBJS) \
+	  $(LINK_CMD) \
+	  $(RTS_LIB)
+
+# Generate HEX (use -o, not --output_file)
+$(HEX_FILE): $(OUT_FILE)
+	@echo "[HEX] $@"
+	$(HEX) --diag_wrap=off -o $(abspath $@) $(abspath $<)
+# Remove unwanted files
+	@rm -f $(notdir $(basename $(HEX_FILE))).x1 \
+	       $(notdir $(basename $(HEX_FILE))).x2 \
+	       $(notdir $(basename $(HEX_FILE))).x3
+
+# --- Clean everything ---
 clean:
-	rm -rf $(BUILD_DIR)
-
-flash: $(TARGET_ELF)
-	openocd -f interface/stlink.cfg -f target/stellaris.cfg \
-		-c "program $(TARGET_ELF) verify reset exit"
+	@rm -rf $(OBJ_DIR)

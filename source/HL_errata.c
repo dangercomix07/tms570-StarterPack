@@ -54,6 +54,7 @@
 *
 *    This function is called if there is a errata workaround fail with appropriate flag
 */
+#pragma WEAK(errataFailNotification)
 void errataFailNotification(uint32 flag)
 {
 /* USER CODE BEGIN (1) */

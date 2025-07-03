@@ -89,8 +89,8 @@ typedef enum systemInterrupt
 
 /* Interrupt Handlers */
 
-extern void esmHighInterrupt(void) __attribute__ ((weak, interrupt("FIQ")));
-extern void phantomInterrupt(void) __attribute__ ((weak, interrupt("IRQ")));
+extern void esmHighInterrupt(void);
+extern void phantomInterrupt(void);
 
 /* USER CODE BEGIN (3) */
 /* USER CODE END */

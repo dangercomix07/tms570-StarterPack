@@ -44,6 +44,7 @@
 /* USER CODE END */
 
 #include "HL_epc.h"
+#include "HL_sys_vim.h"
 #include "HL_system.h"
 #include "HL_reg_esm.h"
 
